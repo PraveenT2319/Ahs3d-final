@@ -334,7 +334,7 @@
 
                     $.post(action, {
                             name: $('#name').val(),
-                            email: $('#email').val(),
+                            Email: $('#Email').val(),
                             phone: $('#phone').val(),
                             comments: $('#comments').val()
                         },
