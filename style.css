@@ -6063,7 +6063,7 @@ footer .footer-bottom .social li a:hover {
 }
 
 .tab-button.active {
-    border-bottom: 3px solid #007BFF;
+    border: 3px solid #007BFF;
 }
 
 .tab-content {
@@ -6092,7 +6092,7 @@ footer .footer-bottom .social li a:hover {
     }
 
     .tab-button.active {
-        border-left: 3px solid #007BFF;
+        border: 4px solid #007BFF;
     }
 }
 
