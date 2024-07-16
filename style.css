@@ -6049,8 +6049,7 @@ footer .footer-bottom .social li a:hover {
 .tab-buttons {
     display: flex;
     justify-content: space-around;
-    border-bottom: 2px solid #ccc;
-    border-top: 2px solid #ccc;
+    border: 2px solid #ccc;
 }
 
 .tab-button {
