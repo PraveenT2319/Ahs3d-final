@@ -1001,11 +1001,11 @@ nav.navbar.bootsnav {
   }
 
   nav.navbar.bootsnav .navbar-brand {
-    padding: 4px 15px;
+    padding: 4px 10px;
   }
 
   nav.navbar.bootsnav.sticked .navbar-brand {
-    padding: 15px;
+    padding: 10px;
   }
 
   nav.navbar.bootsnav ul.nav > li.active > a {
@@ -2420,7 +2420,7 @@ ul.cart-list > li.total > .btn {
     position: relative;
   }
 
-  nav.navbar.navbar-sticky .navbar-brand {
+  /* nav.navbar.navbar-sticky .navbar-brand {
     top: 7px;
   }
 
@@ -2430,7 +2430,7 @@ ul.cart-list > li.total > .btn {
 
   nav.navbar .navbar-brand img.logo {
     height: 30px;
-  }
+  } */
 
   .attr-nav > ul > li > a {
     padding: 20px 15px 15px;
@@ -2459,7 +2459,7 @@ ul.cart-list > li.total > .btn {
 
   nav.navbar-full .navbar-brand {
     top: 0;
-    padding-top: 10px;
+    /* padding-top: 10px; */
   }
 }
 
