@@ -27,11 +27,20 @@
     <link href="assets/css/bootsnav.css" rel="stylesheet" />
     <link href="style.css" rel="stylesheet">
     <link href="assets/css/responsive.css" rel="stylesheet" />
+    <!-- ========== End Stylesheet ========== -->
 
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="assets/js/html5/html5shiv.min.js"></script>
+      <script src="assets/js/html5/respond.min.js"></script>
+    <![endif]-->
 
     <!-- ========== Google Fonts ========== -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,500,600,700,800" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
 </head>
 
 <body>
@@ -105,24 +114,24 @@
                 <div class="collapse navbar-collapse" id="navbar-menu">
                     <ul class="nav navbar-nav navbar-right" data-in="#" data-out="#">
                    
-                        <li>
+                        <li >
                             <a href="index.html">Home</a>
                         </li>
                         <li>
-                            <a href="about.html">About</a>
+                            <a href="about.html"  style="color: #f0d200;">About</a>
                         </li>
                         <li class="dropdown">
-                            <a href="#" class="dropdown-toggle active" data-toggle="dropdown" >Service</a>
+                            <a href="#" class="dropdown-toggle active" data-toggle="dropdown" >Services</a>
                             <ul class="dropdown-menu">
-                                <li><a href="dimen.html">Dimensional Inspection</a></li>
-                                <li><a href="Reverse.html">Reverse Engineering</a></li>
-                                <li><a href="Training.html">Training</a></li>
-                                <li><a href="Analysis.html">CT Analysis</a></li>
+                                 <li><a href="dimen.html">Dimensional Inspection</a></li>
+                                <li><a href="reverse.html">3D Design and Reverse Engineering</a></li>
+                        
+                                <li><a href="ctt.html">CT Analysis</a></li>
+                                 <li><a href="manufacture.html">Manufacturing </a></li>      <li><a href="training.html">Training</a></li>
                             </ul>
                         </li>
-                        <li>
-                            <a href="Gallery.html">Gallery</a>
-                        </li> 
+                    
+                       
                      
                      
                         <li>
@@ -438,126 +447,111 @@ inspection services. Accuracy and reliability guaranteed.
     <!-- End About -->
 
 
-
-
-
-        <!-- Start Features
+    <!-- Start Services 
     ============================================= -->
-    <div class="features-area">
+    <div class="departments-area bg-gray default-padding bottom-less">
         <div class="container">
-            <div class="row">
+            <div class="site-heading " style="text-align: center;">
+                <h2 style="margin-top: 30px; " >Our <span>Service</span> </h2>
                
-                <div class="col-md-12 features-items" >
-                    <div class="site-heading text-center">
-                        <h2>Our <span>Services</span></h2>
-                       
-                    </div>
-                    <div class="row">
-                        <div class="col-md-4">
-                            
-                           <!-- Single Item -->
+            </div>
+            <div class="row">
+                <div class="department-items text-center">
+                    <!-- Single Item -->
+                    <div class="col-md-4 col-sm-6 equal-height">
                         <div class="item">
+                            <div class="thumb">
+                                <img src="assets/img/AHS/Artboard 1.png  " alt="Thumb" > 
+                            </div>
                             <div class="info">
-                             
-                                <div class="overlay" style="margin-bottom: 20px;">
-                                    <img src="assets/img/AHS/Artboard 1.png  " alt="Thumb" style="width: 100%;"> 
-                                </div>
-                                <h4 style="text-align: center;">
-                                    <a href="dimen.html">Dimensional Inspection</a>
+                                <h4>
+                                    <a href="#">Dimensional Inspection</a>
                                 </h4>
-                                <p style="text-align: center;">CMM Inspection, Vision System , Portable CMM Inspection, Roughness Tester, Contour Tracing</p><br>
-                                <p style="text-align: center; padding-bottom: 20px;"> <a class="btn btn-theme border circle btn-md" href="dimen.html">Read More</a></p>
+                                <p>CMM Inspection, Vision System , Portable CMM Inspection, Roughness Tester, Contour Tracing</p>
+                                <a class="btn btn-theme border circle btn-md" href="#">Read More</a>
                             </div>
                         </div>
-                        <!-- End Single Item -->
-                        </div>
-                        <div class="col-md-4">
-                          <!-- Single Item -->
-                          <div class="item">
+                    </div>
+                    <!-- End Single Item -->
+                    <!-- Single Item -->
+                    <div class="col-md-4 col-sm-6 equal-height">
+                        <div class="item">
+                            <div class="thumb">
+                                <img src="assets/img/AHS/Artboard 2.png" alt="Thumb" >
+                            </div>
                             <div class="info">
-                           
-                                <div class="overlay"  style="margin-bottom: 20px;">
-                                    <img src="assets/img/AHS/Artboard 2.png" alt="Thumb"  style="width: 100%;"> 
-                                </div>
-                                <h4 style="text-align: center;">
-                                    <a href="reverse.html">3D Design and  Reverse Engineering</a>
+                                <h4>
+                                    <a href="#">3D Design And Reverse Engineering</a>
                                 </h4>
-                                <p  style="text-align: center;">Cad Design, Reverse Engineering<br> Finite Element Analysis</p>
-                                <br>
-                              <p style="text-align: center;  padding-bottom: 20px;">  <a class="btn btn-theme border circle btn-md" href="reverse.html">Read More</a></p>
+                                <p>Cad Design, Reverse Engineering
+                                    Finite Element Analysis</p>
+                                    <a class="btn btn-theme border circle btn-md" href="#">Read More</a>
                             </div>
                         </div>
-                        <!-- End Single Item -->
-                        
+                    </div>
+                    <!-- End Single Item -->
+                    <!-- Single Item -->
+                    <div class="col-md-4 col-sm-6 equal-height">
+                        <div class="item">
+                            <div class="thumb">
+                                <img src="assets/img/aahs/serv90.png" alt="Thumb"> 
+                            </div>
+                            <div class="info">
+                                <h4>
+                                    <a href="#">CT Analysis</a>
+                                </h4>
+                                <p>CT Scanning, Porosity Analysis,<br>
+                                    Material Analysis</p>
+                                    <a class="btn btn-theme border circle btn-md" href="#">Read More</a>
+                            </div>
                         </div>
-
-                        <div class="col-md-4">
-                            <!-- Single Item -->
-                            <div class="item">
-                              <div class="info">
-                                
-                                  <div class="overlay"  style="margin-bottom: 20px;">
-                                      <img src="assets/img/aahs/serv90.png" alt="Thumb"  style="width: 100%;"> 
-                                  </div>
-                                  <h4 style="text-align: center;">
-                                    <a href="ctt.html">CT Analysis</a>
+                    </div>
+                    <!-- End Single Item -->
+                    <!-- Single Item -->
+                    <div class="col-md-4 col-sm-6 equal-height">
+                        <div class="item">
+                            <div class="thumb">
+                                <img src="assets/img/aahs/bbb.png" alt="Thumb"> 
+                            </div>
+                            <div class="info">
+                                <h4>
+                                    <a href="#">Manufacturing</a>
                                 </h4>
-                                <p  style="text-align: center;">CT Scanning, Porosity Analysis, <br>Material Analysis</p><br>
-                                <p style="text-align: center;">  <a class="btn btn-theme border circle btn-md" href="ctt.html">Read More</a></p>
-                                
-                              </div><br>
-                          </div>
-                          <!-- End Single Item -->
-                          
-                          </div>
-                          </div>
-                          <div class="row">
-                        <div class="col-md-4">
-                            <!-- Single Item -->
-                            <div class="item">
-                              <div class="info">
-                               
-                                  <div class="overlay"  style="margin-bottom: 20px;">
-                                      <img src="assets/img/aahs/bbb.png" alt="Thumb" style="width: 100%;"> 
-                                  </div>
-                                  <h4 style="text-align: center;" >
-                                    <a href="manufacture.html">Manufacturing </a>
+                                <p>Product Prototyping, Tooling Design & Fabrication, Production Process Optimization, Assembly Line Setup & Optimization</p>
+                                <a class="btn btn-theme border circle btn-md" href="#">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Single Item -->
+                    <!-- Single Item -->
+                    <div class="col-md-4 col-sm-6 equal-height">
+                        <div class="item">
+                            <div class="thumb">
+                                <img src="assets/img/aahs/serv4.png" alt="Thumb" > 
+                            </div>
+                            <div class="info">
+                                <h4>
+                                    <a href="#">Training</a>
                                 </h4>
-                                <p  style="text-align: center;">Product Prototyping, Tooling Design & Fabrication, Production Process Optimization, Assembly Line Setup & Optimization</p><br>
-                                <p style="text-align: center;"> <a class="btn btn-theme border circle btn-md" href="manufacture.html">Read More</a></p>
-                              </div><br>
-                          </div>
-                          <!-- End Single Item -->
-                          
-                          </div>
-                 
-
-                          <div class="col-md-4">
-                            <!-- Single Item -->
-                            <div class="item">
-                              <div class="info">
-                                
-                                  <div class="overlay"  style="margin-bottom: 20px;">
-                                      <img src="assets/img/aahs/serv4.png" alt="Thumb"  style="width: 100%;"> 
-                                  </div>
-                                  <h4 style="text-align: center;">
-                                    <a href="training.html">Training</a>
-                                </h4>
-                                <p  style="text-align: center;">CMM Programming using Calypso,<br> GD&T Basic and Advanced <br> Metrology concepts</p><br>
-                                <p style="text-align: center;">  <a class="btn btn-theme border circle btn-md" href="training.html">Read More</a></p>
-                              </div><br>
-                          </div>
-                          <!-- End Single Item -->
-                          
-                          </div>
-                         
-                  
-                </div> 
+                                <p>CMM Programming using Calypso,<br>
+                                    GD&T Basic and Advanced<br>
+                                    Metrology concepts</p>
+                                    <a class="btn btn-theme border circle btn-md" href="#">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Single Item -->
+              
+                </div>
             </div>
         </div>
     </div>
-    </div>
-    <!-- End Features -->
+    <!-- End Services -->
+
+
+
+
+
 
       <!-- Start Fun Factor
     ============================================= -->
@@ -606,200 +600,102 @@ inspection services. Accuracy and reliability guaranteed.
     <!-- End Fun Factor -->
 
  
-
-
-       <!-- Start Features
+    <!-- Start Services 
     ============================================= -->
-    <div class="features-area">
+    <div class="departments-area bg-gray default-padding bottom-less">
         <div class="container">
-            <div class="row">
+            <div class="site-heading " style="text-align: center;">
+                <h2 style="margin-top: 30px; " >Case <span>Studies</span> </h2>
                
-                <div class="col-md-12 features-items" >
-                    
-                    <div class="site-heading text-center">
-                        <h2>Case <span>Studies</span></h2>
-                       
-                    </div>
-                    <div class="row">
-                        <div class="col-md-4">
-                            <!-- Single Item -->
-                            <div class="item">
-                              <div class="info">
-                             
-                                  <div class="overlay"  style="margin-bottom: 20px;">
-                                      <img src="assets/img/AHS/casecmm.png" alt="Thumb"  style="width: 100%;"> 
-                                  </div>
-                                  <h3 style="text-align: center;">Dimensional Inspection</h3>
-                                  <h5 style="text-align: center;">
-                                      <a href="reverse.html">Automotive Industry – Cylinder Bore <br>Measurement
-                                      </a>
-                                  </h5>
-                              <p style="text-align: center;  padding-bottom: 20px;">  <a class="btn btn-theme border circle btn-md" href="dimensional.html">Read More</a></p>
-                              </div>
-                          </div>
-                          <!-- End Single Item -->
-                          
-                          </div>
-                        <div class="col-md-4">
-                          <!-- Single Item -->
-                          <div class="item">
-                            <div class="info">
-                           
-                                <div class="overlay"  style="margin-bottom: 20px;">
-                                    <img src="assets/img/AHS/re11.png" alt="Thumb"  style="width: 100%;"> 
-                                </div>
-                                <h3 style="text-align: center;">Reverse Engineering </h3>
-                                <h5 style="text-align: center;">
-                                    <a href="reverse.html">Industrial Manufacturing – 3D Design and Reverse Engineering for Tooling and Molds
-                                    </a>
-                                </h5>
-                            <p style="text-align: center;  padding-bottom: 20px;">  <a class="btn btn-theme border circle btn-md" href="reverse.html">Read More</a></p>
-                            </div>
-                        </div>
-                        <!-- End Single Item -->
-                        
-                        </div>
-
-                        <div class="col-md-4">
-                            <!-- Single Item -->
-                            <div class="item">
-                              <div class="info">
-                                
-                                  <div class="overlay"  style="margin-bottom: 20px;">
-                                      <img src="assets/img/AHS/ct1.png" alt="Thumb"  style="width: 100%;"> 
-                                  </div>
-                                  <h3 style="text-align: center;">CT Analysis </h3>
-                                  <h5 style="text-align: center;">
-
-                                    <a href="ctt.html">Aerospace Industry – Inspection of Composite Materials used due to  high strength-to-weight ratio
-                                    </a>
-                                </h5>
-                               <p style="text-align: center;">  <a class="btn btn-theme border circle btn-md" href="ctt.html">Read More</a></p>
-                              </div>
-                          </div>
-                          <!-- End Single Item --><br><br>
-                          
-                          </div>
-                        <div class="col-md-4">
-                            <!-- Single Item -->
-                            <div class="item">
-                              <div class="info">
-                               
-                                  <div class="overlay"  style="margin-bottom: 20px;">
-                                      <img src="assets/img/AHS/manu1.png" alt="Thumb" style="width: 100%;"> 
-                                  </div>
-                                  <h3 style="text-align: center;">Manufacturing </h3>
-                                  <h5 style="text-align: center;" >
-                                    <a href="manufacture.html">Manufacturing  for Ensuring Integrity</a>
-                                </h5>
-                               <p style="text-align: center;"> <a class="btn btn-theme border circle btn-md" href="manufacture.html">Read More</a></p>
-                              </div>
-                          </div>
-                          <!-- End Single Item -->
-                          
-                          </div>
-                 
-
-                         
-                  
-                </div> <br><br>
             </div>
-        </div>
-    </div>
-</div>
-    <!-- End Features -->
-
-
-
-   <!-- Start Contact Area
-    ============================================= -->
-    <div class="contact-area bg-gray text-center" style="width: 100%;">
-        <div class="container">
             <div class="row">
-                <div class="contact-items">
-                    <div class="col-md-8 col-md-offset-2 contact-form">
-                        <div class="site-heading text-center">
-                            <h2>Contact <span>Us</span></h2>
-                           
+                <div class="department-items text-center">
+                    <!-- Single Item -->
+                    <div class="col-md-4 col-sm-6 equal-height">
+                        <div class="item">
+                            <div class="thumb">
+                                <img src="assets/img/AHS/casecmm.png" alt="Thumb"> 
+                            </div>
+                            <div class="info">
+                                <h4>
+                                    <a href="#">Dimensional Inspection</a>
+                                </h4>
+                                <p>Automotive Industry -<br>  Cylinder <br> Bore
+                                    Measurement</p>
+                                    <a class="btn btn-theme border circle btn-md" href="#">Read More</a>
+                            </div>
                         </div>
-                        <form action="assets/mail/contact.php" method="POST" class="contact-form">
-                            <div class="col-md-6">
-                                <div class="row">
-                                    <div class="form-group">
-                                        <input class="form-control" id="name" name="name" placeholder="Name" type="text">
-                                        <span class="alert-error"></span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6"  >
-                                <div class="row">
-                                    <div class="form-group">
-                                        <select>
-                                            <option value="#">  Select</option>
-                                            <option value="1"> Dimensional Inspection</option>
-                                            <option value="2"> 3D Design and Reverse Engineering</option>
-                                            <option value="5"> CT Analysis</option>
-                                            <option value="5"> Manufacturing </option>
-                                            <option value="4">Training</option>
-                                        </select>
-                                        <span class="alert-error"></span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="row">
-                                    <div class="form-group">
-                                        <input class="form-control" id="Email" name="Email" placeholder="Email" type="text">
-                                        <span class="alert-error"></span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="row">
-                                    <div class="form-group">
-                                        <input class="form-control" id="Phone" name="Phone" placeholder="Phone" type="text">
-                                        <span class="alert-error"></span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-12">
-                                <div class="row">
-                                    <div class="form-group comments">
-                                        <textarea class="form-control" id="comments" name="comments" placeholder="Message *"></textarea>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-12">
-                                <div class="row">
-                                    <button type="submit" name="submit" id="submit">
-                                        Send Message <i class="fa fa-paper-plane"></i>
-                                    </button>
-                                </div>
-                            </div>
-                            <!-- Alert Message -->
-                            <div class="col-md-12 alert-notification">
-                                <div id="message" class="alert-msg"></div>
-                            </div>
-                        </form>
                     </div>
+                    <!-- End Single Item -->
+                    <!-- Single Item -->
+                    <div class="col-md-4 col-sm-6 equal-height">
+                        <div class="item">
+                            <div class="thumb">
+                                <img src="assets/img/AHS/re11.png" alt="Thumb" > 
+                            </div>
+                            <div class="info">
+                                <h4>
+                                    <a href="#">Reverse Engineering</a>
+                                </h4>
+                                <p>ndustrial Manufacturing – 3D Design and Reverse Engineering<br> for Tooling and Molds</p>
+                                <a class="btn btn-theme border circle btn-md" href="#">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Single Item -->
+                    <!-- Single Item -->
+                    <div class="col-md-4 col-sm-6 equal-height">
+                        <div class="item">
+                            <div class="thumb">
+                                <img src="assets/img/AHS/ct1.png" alt="Thumb"> 
+                            </div>
+                            <div class="info">
+                                <h4>
+                                    <a href="#">CT Analysis</a>
+                                </h4>
+                                <p>Aerospace Industry – Inspection of Composite Materials used due to high strength-to-weight ratio</p>
+                                <a class="btn btn-theme border circle btn-md" href="#">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Single Item -->
+                    <!-- Single Item -->
+                    <div class="col-md-4 col-sm-6 equal-height">
+                        <div class="item">
+                            <div class="thumb">
+                                <img src="assets/img/AHS/manu1.png" alt="Thumb" style="width: 100%;"> 
+                            </div>
+                            <div class="info">
+                                <h4>
+                                    <a href="#">Manufacturing</a>
+                                </h4>
+                                <p>Manufacturing for Ensuring Integrity</p>
+                                <a class="btn btn-theme border circle btn-md" href="#">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Single Item -->
+             
+              
                 </div>
             </div>
-        </div><br>
-    </div>
-    <!-- End Contact Area -->
-
-
-
-    <div class="card cookie-alert " style="background-color: #000; text-align: center;">
-        <div class="card-body d-flex justify-content-between align-items-center">
-            <p class="card-text mb-0" style="color: #fff;">We use cookies to enhance your browsing experience, provide personalized content, and analyze site traffic. By continuing to use our site, you consent to our use of cookies in accordance with our Cookie Policy.</p>
-            <div class="btn-group">
-                <a href="#" target="_blank" class="btn btn-link">Decline</a>
-                <a href="#" class="btn btn-primary accept-cookies">Accept</a>
-            </div>
         </div>
     </div>
+    <!-- End Services -->
 
+  
+
+
+
+ 
+
+  
+
+
+
+
+
+    
 
 
     <a href="https://api.whatsapp.com/send?phone=+919900084339&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Varela%202." class="float" target="_blank">
