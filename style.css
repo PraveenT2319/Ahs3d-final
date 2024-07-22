@@ -336,9 +336,8 @@ input {
 }
 
 .default-padding {
-  padding-top: 70px;
-  padding-bottom: 7
-  0px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .default-padding-top {
@@ -3432,7 +3431,7 @@ body,
 .chose-us-area .info h2 {
   font-weight: 600;
   display: inline-block;
-  margin-bottom: 56px;
+ 
 }
 
 .chose-us-area .info p:last-child {
@@ -6106,7 +6105,7 @@ footer .footer-bottom .social li a:hover {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 40px;
+  font-size: 20px;
   color: white;
   background-color: rgba(0, 0, 0, 0.5);
   border: none;
@@ -6120,4 +6119,8 @@ footer .footer-bottom .social li a:hover {
 
 .play-button:hover {
   background-color: rgba(0, 0, 0, 0.7);
+}
+
+.contact-area{
+  margin-top: 30px;
 }

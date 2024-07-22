@@ -429,8 +429,8 @@
   }
 
   .default-padding {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 0px;
+    padding-bottom: 0px;
   }
 
   .padding-xl {
@@ -466,7 +466,7 @@
   }
 
   .site-heading {
-    margin-bottom: 30px;
+    margin-bottom: 5px;
   }
 
   .site-heading.single {
