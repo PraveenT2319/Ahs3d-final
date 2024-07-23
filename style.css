@@ -4890,7 +4890,7 @@ body,
 
 .sidebar-item.social-sidebar li a {
   background-color: #0077B5 ;
-  padding: 4px;
+  padding: 7px;
   transition: background-color 0.3s, transform 0.3s;
   text-align: center;
   color: #fff;
@@ -5936,10 +5936,9 @@ footer .footer-bottom .social li a:hover {
 .linkedin-icon {
 
   background-color: #0077B5 ;
-  padding: 4px;
+  padding: 7px;
   transition: background-color 0.3s, transform 0.3s;
   text-align: center;
-  border-radius: 5px;
   
 }
 
